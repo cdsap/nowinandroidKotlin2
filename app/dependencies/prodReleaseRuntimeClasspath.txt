@@ -31,12 +31,12 @@ androidx.compose.material3:material3-android:1.2.1
 androidx.compose.material3:material3-window-size-class-android:1.2.1
 androidx.compose.material3:material3-window-size-class:1.2.1
 androidx.compose.material3:material3:1.2.1
-androidx.compose.material:material-icons-core-android:1.6.3
-androidx.compose.material:material-icons-core:1.6.3
-androidx.compose.material:material-icons-extended-android:1.6.3
-androidx.compose.material:material-icons-extended:1.6.3
-androidx.compose.material:material-ripple-android:1.6.3
-androidx.compose.material:material-ripple:1.6.3
+androidx.compose.material:material-icons-core-android:1.6.7
+androidx.compose.material:material-icons-core:1.6.7
+androidx.compose.material:material-icons-extended-android:1.6.7
+androidx.compose.material:material-icons-extended:1.6.7
+androidx.compose.material:material-ripple-android:1.6.7
+androidx.compose.material:material-ripple:1.6.7
 androidx.compose.runtime:runtime-android:1.7.0-alpha06
 androidx.compose.runtime:runtime-saveable-android:1.7.0-alpha06
 androidx.compose.runtime:runtime-saveable:1.7.0-alpha06
@@ -56,7 +56,7 @@ androidx.compose.ui:ui-unit:1.7.0-alpha06
 androidx.compose.ui:ui-util-android:1.7.0-alpha06
 androidx.compose.ui:ui-util:1.7.0-alpha06
 androidx.compose.ui:ui:1.7.0-alpha06
-androidx.compose:compose-bom:2024.02.02
+androidx.compose:compose-bom:2024.05.00
 androidx.concurrent:concurrent-futures:1.1.0
 androidx.core:core-ktx:1.12.0
 androidx.core:core-splashscreen:1.0.1
