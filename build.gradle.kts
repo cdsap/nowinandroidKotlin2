@@ -48,6 +48,8 @@ plugins {
     alias(libs.plugins.secrets) apply false
     alias(libs.plugins.room) apply false
     alias(libs.plugins.module.graph) apply true // Plugin applied to allow module graph generation
+    id("io.github.cdsap.kotlinprocess") version "0.1.6"
+    id("io.github.cdsap.gradleprocess") version "0.1.2"
 }
 
 // Task to print all the module paths in the project e.g. :core:data
