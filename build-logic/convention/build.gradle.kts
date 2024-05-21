@@ -18,6 +18,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     `kotlin-dsl`
+    kotlin("jvm") version "2.0.0"
+
 }
 
 group = "com.google.samples.apps.nowinandroid.buildlogic"

@@ -33,9 +33,9 @@ internal fun Project.configureAndroidCompose(
             compose = true
         }
 
-        composeOptions {
-            kotlinCompilerExtensionVersion = libs.findVersion("androidxComposeCompiler").get().toString()
-        }
+//        composeOptions {
+//            kotlinCompilerExtensionVersion = libs.findVersion("androidxComposeCompiler").get().toString()
+//        }
 
         dependencies {
             val bom = libs.findLibrary("androidx-compose-bom").get()
@@ -55,7 +55,7 @@ internal fun Project.configureAndroidCompose(
 
     tasks.withType<KotlinCompile>().configureEach {
         kotlinOptions {
-            freeCompilerArgs += buildComposeMetricsParameters() 
+            freeCompilerArgs += buildComposeMetricsParameters()
             freeCompilerArgs += stabilityConfiguration()
             freeCompilerArgs += strongSkippingConfiguration()
         }

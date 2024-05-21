@@ -30,6 +30,17 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+plugins {
+    id("com.gradle.develocity") version "3.17.1"
+}
+
+develocity {
+    server = "http://ge.solutions-team.gradle.com"
+    allowUntrustedServer = true
+    buildScan {
+        publishing { true }
+    }
+}
 rootProject.name = "nowinandroid"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
