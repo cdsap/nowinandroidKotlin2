@@ -16,25 +16,24 @@
 
 package com.google.samples.apps.nowinandroid.core.designsystem.icon
 
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.rounded.ArrowBack
-import androidx.compose.material.icons.automirrored.rounded.ShortText
-import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.outlined.Bookmarks
-import androidx.compose.material.icons.outlined.Upcoming
-import androidx.compose.material.icons.rounded.Add
-import androidx.compose.material.icons.rounded.Bookmark
-import androidx.compose.material.icons.rounded.BookmarkBorder
-import androidx.compose.material.icons.rounded.Bookmarks
-import androidx.compose.material.icons.rounded.Check
-import androidx.compose.material.icons.rounded.Close
-import androidx.compose.material.icons.rounded.Grid3x3
-import androidx.compose.material.icons.rounded.Person
-import androidx.compose.material.icons.rounded.Search
-import androidx.compose.material.icons.rounded.Settings
-import androidx.compose.material.icons.rounded.Upcoming
-import androidx.compose.material.icons.rounded.ViewDay
+
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.ArrowBack
 import androidx.compose.ui.graphics.vector.ImageVector
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Add
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Bookmark
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.BookmarkBorder
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Bookmarks
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Check
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Close
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Grid3x3
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Icons
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.MoreVert
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Person
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Search
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Settings
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.Upcoming
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.ViewDay
+import com.google.samples.apps.nowinandroid.core.designsystem.icon.rep.rounded.Bookmarks
 
 /**
  * Now in Android icons. Material icons are [ImageVector]s, custom icons are drawable resource IDs.
