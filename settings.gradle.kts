@@ -31,14 +31,14 @@ dependencyResolutionManagement {
     }
 }
 plugins {
-    id("com.gradle.develocity") version "3.17.1"
+    id("com.gradle.enterprise") version "3.13.2"
 }
 
-develocity {
+gradleEnterprise {
     server = "http://ge.solutions-team.gradle.com"
     allowUntrustedServer = true
     buildScan {
-        publishing { true }
+        publishAlways()
     }
 }
 rootProject.name = "nowinandroid"
